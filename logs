@@ -1,0 +1,464 @@
+==> Docker <==
+-- Logs begin at Wed 2020-01-15 19:10:58 CET, end at Tue 2020-01-28 19:09:19 CET. --
+ene 28 18:01:56 pc-carlos dockerd[2070]: time="2020-01-28T18:01:56.084926350+01:00" level=warning msg="1a39e8d0e02941a310c3fdd5d63effc5672f2ff44607089834b155cfd8abde08 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/1a39e8d0e02941a310c3fdd5d63effc5672f2ff44607089834b155cfd8abde08/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:02:44 pc-carlos dockerd[2070]: time="2020-01-28T18:02:44.770406256+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:02:44 pc-carlos dockerd[2070]: time="2020-01-28T18:02:44.770707220+01:00" level=warning msg="3d1d35db18c5ae8d602a4b376041cfa578428fc4f5ff336967db2f2075816f3c cleanup: failed to unmount IPC: umount /var/lib/docker/containers/3d1d35db18c5ae8d602a4b376041cfa578428fc4f5ff336967db2f2075816f3c/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:07:00 pc-carlos dockerd[2070]: time="2020-01-28T18:07:00.081816035+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:07:00 pc-carlos dockerd[2070]: time="2020-01-28T18:07:00.081899365+01:00" level=warning msg="74e2e87d751f90482594c4b42e9d15041203cf5e0982e100cf25febb68505857 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/74e2e87d751f90482594c4b42e9d15041203cf5e0982e100cf25febb68505857/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:08:07 pc-carlos dockerd[2070]: time="2020-01-28T18:08:07.337173833+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:08:07 pc-carlos dockerd[2070]: time="2020-01-28T18:08:07.337266110+01:00" level=warning msg="3497b9a242299340f32a3d83ac0a48c7e5fbd037259e0a066ce198c130ce7149 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/3497b9a242299340f32a3d83ac0a48c7e5fbd037259e0a066ce198c130ce7149/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:12:06 pc-carlos dockerd[2070]: time="2020-01-28T18:12:06.085120080+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:12:06 pc-carlos dockerd[2070]: time="2020-01-28T18:12:06.085201287+01:00" level=warning msg="8ad936141512fa7215b18711b0ab276b4f76269fadedd5d47a9b1ecd12204a50 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/8ad936141512fa7215b18711b0ab276b4f76269fadedd5d47a9b1ecd12204a50/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:13:29 pc-carlos dockerd[2070]: time="2020-01-28T18:13:29.542738842+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:13:29 pc-carlos dockerd[2070]: time="2020-01-28T18:13:29.542956818+01:00" level=warning msg="213d4292b481445a006266d028b486e21c3fd38b19885b410959a3f8cc724781 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/213d4292b481445a006266d028b486e21c3fd38b19885b410959a3f8cc724781/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:17:13 pc-carlos dockerd[2070]: time="2020-01-28T18:17:13.081945459+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:17:13 pc-carlos dockerd[2070]: time="2020-01-28T18:17:13.082203656+01:00" level=warning msg="cfeda2aa2ae420992b7eb722ed510e07fb573b505a1a43b4a2fbc500d681e461 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/cfeda2aa2ae420992b7eb722ed510e07fb573b505a1a43b4a2fbc500d681e461/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:18:51 pc-carlos dockerd[2070]: time="2020-01-28T18:18:51.516795766+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:18:51 pc-carlos dockerd[2070]: time="2020-01-28T18:18:51.516948743+01:00" level=warning msg="d0f18ff3145a83e4786704b6738efa13e867e0722f71d9241bb37790961420d3 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/d0f18ff3145a83e4786704b6738efa13e867e0722f71d9241bb37790961420d3/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:22:19 pc-carlos dockerd[2070]: time="2020-01-28T18:22:19.093377692+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:22:19 pc-carlos dockerd[2070]: time="2020-01-28T18:22:19.093630156+01:00" level=warning msg="355978ff64a7007aa758fb596f0ead86ec3a7e0c19d3d30b0044342bb8b99769 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/355978ff64a7007aa758fb596f0ead86ec3a7e0c19d3d30b0044342bb8b99769/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:24:24 pc-carlos dockerd[2070]: time="2020-01-28T18:24:24.677287263+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:24:24 pc-carlos dockerd[2070]: time="2020-01-28T18:24:24.677507742+01:00" level=warning msg="8961a7c1d8e04d6fbf2767c3d75d474928368fc1b7f2a7c88e7515e5054cff56 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/8961a7c1d8e04d6fbf2767c3d75d474928368fc1b7f2a7c88e7515e5054cff56/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:27:30 pc-carlos dockerd[2070]: time="2020-01-28T18:27:30.113788846+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:27:30 pc-carlos dockerd[2070]: time="2020-01-28T18:27:30.113884644+01:00" level=warning msg="85c70181a6087c5dc91533d5eef11543ec731515eef214a80b5d026cdda8d590 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/85c70181a6087c5dc91533d5eef11543ec731515eef214a80b5d026cdda8d590/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:29:53 pc-carlos dockerd[2070]: time="2020-01-28T18:29:53.553730121+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:29:53 pc-carlos dockerd[2070]: time="2020-01-28T18:29:53.553958501+01:00" level=warning msg="8aedeb9aeb0f0fa32c5c5b7603e3a50a0c92404f831c9ccfba4be14deb0fccd9 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/8aedeb9aeb0f0fa32c5c5b7603e3a50a0c92404f831c9ccfba4be14deb0fccd9/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:32:40 pc-carlos dockerd[2070]: time="2020-01-28T18:32:40.091582401+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:32:40 pc-carlos dockerd[2070]: time="2020-01-28T18:32:40.091696335+01:00" level=warning msg="b644a5594376b10eaadd5be20cea71f99621afc173c21b348f4cb96da3b09287 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/b644a5594376b10eaadd5be20cea71f99621afc173c21b348f4cb96da3b09287/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:35:17 pc-carlos dockerd[2070]: time="2020-01-28T18:35:17.358566289+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:35:17 pc-carlos dockerd[2070]: time="2020-01-28T18:35:17.358648907+01:00" level=warning msg="667d954cacb47e07e3eb93c161c06103224f82fea267fc2a2dbc6e6ae08c210e cleanup: failed to unmount IPC: umount /var/lib/docker/containers/667d954cacb47e07e3eb93c161c06103224f82fea267fc2a2dbc6e6ae08c210e/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:37:54 pc-carlos dockerd[2070]: time="2020-01-28T18:37:54.081422787+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:37:54 pc-carlos dockerd[2070]: time="2020-01-28T18:37:54.081826714+01:00" level=warning msg="1e696b71568bff0e93dbb427092f0e479c17e02a4b763bb490a7c678300269fd cleanup: failed to unmount IPC: umount /var/lib/docker/containers/1e696b71568bff0e93dbb427092f0e479c17e02a4b763bb490a7c678300269fd/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:40:42 pc-carlos dockerd[2070]: time="2020-01-28T18:40:42.506362168+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:40:42 pc-carlos dockerd[2070]: time="2020-01-28T18:40:42.506602682+01:00" level=warning msg="bf15c4a2c31e076628ed55f3928a5386d28aef789cd9d5fb7502fb9b90f95a5f cleanup: failed to unmount IPC: umount /var/lib/docker/containers/bf15c4a2c31e076628ed55f3928a5386d28aef789cd9d5fb7502fb9b90f95a5f/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:43:07 pc-carlos dockerd[2070]: time="2020-01-28T18:43:07.101410363+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:43:07 pc-carlos dockerd[2070]: time="2020-01-28T18:43:07.101707792+01:00" level=warning msg="859a76f8fa8c81a362985c7407a306aa648f92c26d89e6f91a60f73ec81e2205 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/859a76f8fa8c81a362985c7407a306aa648f92c26d89e6f91a60f73ec81e2205/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:46:16 pc-carlos dockerd[2070]: time="2020-01-28T18:46:16.678623157+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:46:16 pc-carlos dockerd[2070]: time="2020-01-28T18:46:16.678764820+01:00" level=warning msg="bcf180eff25bd47a7ab84e7f2c9ccf2f3a212cb459869e8c65a1edcdea64d0e5 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/bcf180eff25bd47a7ab84e7f2c9ccf2f3a212cb459869e8c65a1edcdea64d0e5/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:48:14 pc-carlos dockerd[2070]: time="2020-01-28T18:48:14.048300426+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:48:14 pc-carlos dockerd[2070]: time="2020-01-28T18:48:14.048520308+01:00" level=warning msg="a21bf2f36c8a7e78fdd48e4c8be4c4adab8cc5c71ab15a3cfd6b1d7ffe576749 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/a21bf2f36c8a7e78fdd48e4c8be4c4adab8cc5c71ab15a3cfd6b1d7ffe576749/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:51:39 pc-carlos dockerd[2070]: time="2020-01-28T18:51:39.426072983+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:51:39 pc-carlos dockerd[2070]: time="2020-01-28T18:51:39.426312733+01:00" level=warning msg="de632bce7f6ab9dcf810d06456356d21d83cb92452094cbf8d51741105f7bb96 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/de632bce7f6ab9dcf810d06456356d21d83cb92452094cbf8d51741105f7bb96/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:53:27 pc-carlos dockerd[2070]: time="2020-01-28T18:53:27.070917781+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:53:27 pc-carlos dockerd[2070]: time="2020-01-28T18:53:27.070980660+01:00" level=warning msg="76e6d6fa76d90248c1c40d27da698178bd83a9be7aa33c3c0eff6327798772cc cleanup: failed to unmount IPC: umount /var/lib/docker/containers/76e6d6fa76d90248c1c40d27da698178bd83a9be7aa33c3c0eff6327798772cc/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:57:00 pc-carlos dockerd[2070]: time="2020-01-28T18:57:00.714440660+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:57:00 pc-carlos dockerd[2070]: time="2020-01-28T18:57:00.714741811+01:00" level=warning msg="00049f8f12020cff70c710042addaad4d6b9d408c3b3938ecedb7514e48012bb cleanup: failed to unmount IPC: umount /var/lib/docker/containers/00049f8f12020cff70c710042addaad4d6b9d408c3b3938ecedb7514e48012bb/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 18:58:34 pc-carlos dockerd[2070]: time="2020-01-28T18:58:34.108862154+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 18:58:34 pc-carlos dockerd[2070]: time="2020-01-28T18:58:34.108971298+01:00" level=warning msg="7449e366136aca9f91ef7d0aee227109e25129ed0a2273aa6f320af40584bce0 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/7449e366136aca9f91ef7d0aee227109e25129ed0a2273aa6f320af40584bce0/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 19:02:21 pc-carlos dockerd[2070]: time="2020-01-28T19:02:21.450460159+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 19:02:21 pc-carlos dockerd[2070]: time="2020-01-28T19:02:21.450720586+01:00" level=warning msg="d7274f1a26310e35a510caa3be823a31a78a62462b7bc0ea1ef9eb92e7699d42 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/d7274f1a26310e35a510caa3be823a31a78a62462b7bc0ea1ef9eb92e7699d42/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 19:02:57 pc-carlos dockerd[2070]: time="2020-01-28T19:02:57.743021539+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 19:02:57 pc-carlos dockerd[2070]: time="2020-01-28T19:02:57.743128173+01:00" level=warning msg="47a616f6dbb182874d2829a23a99f60f2ba16550e18fed769909dbb8fad8faaa cleanup: failed to unmount IPC: umount /var/lib/docker/containers/47a616f6dbb182874d2829a23a99f60f2ba16550e18fed769909dbb8fad8faaa/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 19:02:57 pc-carlos dockerd[2070]: time="2020-01-28T19:02:57.849108089+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 19:02:57 pc-carlos dockerd[2070]: time="2020-01-28T19:02:57.849190039+01:00" level=warning msg="25ee649a9d7ebad27d6450b1493d09c66d5cc12be3fcfc00457a14bd96a14755 cleanup: failed to unmount IPC: umount /var/lib/docker/containers/25ee649a9d7ebad27d6450b1493d09c66d5cc12be3fcfc00457a14bd96a14755/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 19:02:57 pc-carlos dockerd[2070]: time="2020-01-28T19:02:57.961944184+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 19:02:57 pc-carlos dockerd[2070]: time="2020-01-28T19:02:57.962133680+01:00" level=warning msg="19502e58bac467ed88806cc697e1a596d367b8c9a74329a63dc6a303423d2d0d cleanup: failed to unmount IPC: umount /var/lib/docker/containers/19502e58bac467ed88806cc697e1a596d367b8c9a74329a63dc6a303423d2d0d/mounts/shm, flags: 0x2: no such file or directory"
+ene 28 19:02:58 pc-carlos dockerd[2070]: time="2020-01-28T19:02:58.116546925+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 19:02:58 pc-carlos dockerd[2070]: time="2020-01-28T19:02:58.322137123+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 19:02:58 pc-carlos dockerd[2070]: time="2020-01-28T19:02:58.531400152+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 19:02:58 pc-carlos dockerd[2070]: time="2020-01-28T19:02:58.677109523+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 19:02:58 pc-carlos dockerd[2070]: time="2020-01-28T19:02:58.848249860+01:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+ene 28 19:05:29 pc-carlos dockerd[2070]: time="2020-01-28T19:05:29.746144015+01:00" level=warning msg="Your kernel does not support swap limit capabilities,or the cgroup is not mounted. Memory limited without swap."
+ene 28 19:05:29 pc-carlos dockerd[2070]: time="2020-01-28T19:05:29.746206454+01:00" level=warning msg="Your kernel does not support swap limit capabilities,or the cgroup is not mounted. Memory limited without swap."
+
+==> container status <==
+CONTAINER ID        IMAGE               CREATED             STATE               NAME                      ATTEMPT             POD ID
+009ce2bc16425       4689081edb103       3 minutes ago       Running             storage-provisioner       0                   d784e4e731a29
+71e7904fc2f81       bf261d1579144       3 minutes ago       Running             coredns                   0                   087f75d721730
+2dc0b15e5d015       bf261d1579144       3 minutes ago       Running             coredns                   0                   8c0f0c5fa1a88
+04e73460af1fe       8454cbe08dc9f       3 minutes ago       Running             kube-proxy                0                   4678b697585d0
+a30e4d5678aac       bd12a212f9dcb       4 minutes ago       Running             kube-addon-manager        0                   06c1f532a78d7
+79b332a2aea88       b2756210eeabf       4 minutes ago       Running             etcd                      0                   9ea9610e3d8f7
+8c29c4630374a       ebac1ae204a2c       4 minutes ago       Running             kube-scheduler            0                   1d6f229f56087
+55289ddc6fc33       c2c9a0406787c       4 minutes ago       Running             kube-apiserver            0                   e340d56782f8a
+031a4919f7b16       6e4bffa46d70b       4 minutes ago       Running             kube-controller-manager   0                   843359b65cee8
+
+==> coredns ["2dc0b15e5d01"] <==
+.:53
+2020-01-28T18:05:30.275Z [INFO] plugin/reload: Running configuration MD5 = f64cb9b977c7dfca58c4fab108535a76
+2020-01-28T18:05:30.275Z [INFO] CoreDNS-1.6.2
+2020-01-28T18:05:30.275Z [INFO] linux/amd64, go1.12.8, 795a3eb
+CoreDNS-1.6.2
+linux/amd64, go1.12.8, 795a3eb
+
+==> coredns ["71e7904fc2f8"] <==
+.:53
+2020-01-28T18:05:30.275Z [INFO] plugin/reload: Running configuration MD5 = f64cb9b977c7dfca58c4fab108535a76
+2020-01-28T18:05:30.275Z [INFO] CoreDNS-1.6.2
+2020-01-28T18:05:30.275Z [INFO] linux/amd64, go1.12.8, 795a3eb
+CoreDNS-1.6.2
+linux/amd64, go1.12.8, 795a3eb
+
+==> dmesg <==
+[  +0,000003]  ? kthread_park+0xb0/0xb0
+[  +0,000005]  ret_from_fork+0x35/0x40
+[  +0,000005] ---[ end trace 6634ea1567faf832 ]---
+[  +0,743916] irq_migrate_all_off_this_cpu: 9 callbacks suppressed
+[  +0,000002] IRQ 128: no longer affine to CPU1
+[  +0,007567] IRQ 129: no longer affine to CPU3
+[  +0,005186] IRQ 126: no longer affine to CPU5
+[  +0,000005] IRQ 152: no longer affine to CPU5
+[  +0,005125] IRQ 124: no longer affine to CPU7
+[  +0,000006] IRQ 149: no longer affine to CPU7
+[  +0,005065] IRQ 125: no longer affine to CPU9
+[  +0,000005] IRQ 139: no longer affine to CPU9
+[  +0,002707] IRQ 140: no longer affine to CPU10
+[  +0,000003] IRQ 141: no longer affine to CPU10
+[  +0,956149] PM: dpm_run_callback(): usb_dev_resume+0x0/0x20 returns -5
+[  +0,000002] PM: Device 1-10 failed to resume async: error -5
+[  +0,280894] done.
+[  +0,000640] thermal thermal_zone2: failed to read out thermal zone (-61)
+[ene28 13:36] iwlwifi 0000:00:14.3: BIOS contains WGDS but no WRDS
+[  +3,363430] iwlwifi 0000:00:14.3: Unhandled alg: 0x707
+[  +0,002387] iwlwifi 0000:00:14.3: Unhandled alg: 0x707
+[  +0,252576] iwlwifi 0000:00:14.3: Unhandled alg: 0x707
+[  +0,000004] iwlwifi 0000:00:14.3: Unhandled alg: 0x707
+[  +0,000162] iwlwifi 0000:00:14.3: Unhandled alg: 0x707
+[  +0,000138] iwlwifi 0000:00:14.3: Unhandled alg: 0x707
+[ene28 13:42] kauditd_printk_skb: 2 callbacks suppressed
+[ene28 13:54] atkbd serio0: Unknown key pressed (translated set 2, code 0x98 on isa0060/serio0).
+[  +0,000005] atkbd serio0: Use 'setkeycodes e018 <keycode>' to make it known.
+[  +0,002467] atkbd serio0: Unknown key released (translated set 2, code 0x98 on isa0060/serio0).
+[  +0,000004] atkbd serio0: Use 'setkeycodes e018 <keycode>' to make it known.
+[  +4,322259] irq_migrate_all_off_this_cpu: 8 callbacks suppressed
+[  +0,000002] IRQ 128: no longer affine to CPU1
+[  +0,010832] IRQ 129: no longer affine to CPU3
+[  +0,009544] IRQ 126: no longer affine to CPU5
+[  +0,000013] IRQ 139: no longer affine to CPU5
+[  +0,004949] IRQ 145: no longer affine to CPU6
+[  +0,005566] IRQ 125: no longer affine to CPU7
+[  +0,000015] IRQ 141: no longer affine to CPU7
+[  +0,004734] IRQ 123: no longer affine to CPU8
+[  +0,000021] IRQ 143: no longer affine to CPU8
+[  +0,004972] IRQ 144: no longer affine to CPU9
+[  +1,241976] PM: dpm_run_callback(): usb_dev_resume+0x0/0x20 returns -5
+[  +0,000004] PM: Device 1-10 failed to resume async: error -5
+[  +0,006374] done.
+[  +0,001021] thermal thermal_zone2: failed to read out thermal zone (-61)
+[  +1,338297] iwlwifi 0000:00:14.3: BIOS contains WGDS but no WRDS
+[ene28 16:08] mce: CPU6: Core temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000000] mce: CPU0: Core temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000001] mce: CPU1: Package temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000001] mce: CPU7: Package temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000001] mce: CPU0: Package temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000001] mce: CPU6: Package temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000047] mce: CPU2: Package temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000001] mce: CPU3: Package temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000001] mce: CPU9: Package temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000000] mce: CPU8: Package temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000002] mce: CPU4: Package temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000001] mce: CPU10: Package temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000001] mce: CPU5: Package temperature above threshold, cpu clock throttled (total events = 5)
+[  +0,000000] mce: CPU11: Package temperature above threshold, cpu clock throttled (total events = 5)
+
+==> kernel <==
+ 19:09:19 up  9:54,  1 user,  load average: 0,83, 0,69, 0,69
+Linux pc-carlos 5.3.0-26-generic #28~18.04.1-Ubuntu SMP Wed Dec 18 16:40:14 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 18.04.3 LTS"
+
+==> kube-addon-manager ["a30e4d5678aa"] <==
+INFO: == Kubernetes addon ensure completed at 2020-01-28T18:08:37+00:00 ==
+INFO: == Reconciling with deprecated label ==
+INFO: == Reconciling with addon-manager label ==
+error: no objects passed to apply
+error: no objects passed to apply
+serviceaccount/storage-provisioner unchanged
+INFO: == Kubernetes addon reconcile completed at 2020-01-28T18:08:39+00:00 ==
+INFO: Leader election disabled.
+INFO: == Kubernetes addon ensure completed at 2020-01-28T18:08:42+00:00 ==
+INFO: == Reconciling with deprecated label ==
+INFO: == Reconciling with addon-manager label ==
+serviceaccount/storage-provisioner unchanged
+INFO: == Kubernetes addon reconcile completed at 2020-01-28T18:08:43+00:00 ==
+INFO: Leader election disabled.
+INFO: == Kubernetes addon ensure completed at 2020-01-28T18:08:48+00:00 ==
+INFO: == Reconciling with deprecated label ==
+error: no objects passed to apply
+INFO: == Reconciling with addon-manager label ==
+serviceaccount/storage-provisioner unchanged
+INFO: == Kubernetes addon reconcile completed at 2020-01-28T18:08:49+00:00 ==
+INFO: Leader election disabled.
+INFO: == Kubernetes addon ensure completed at 2020-01-28T18:08:52+00:00 ==
+INFO: == Reconciling with deprecated label ==
+error: no objects passed to apply
+INFO: == Reconciling with addon-manager label ==
+serviceaccount/storage-provisioner unchanged
+INFO: == Kubernetes addon reconcile completed at 2020-01-28T18:08:54+00:00 ==
+INFO: Leader election disabled.
+INFO: == Kubernetes addon ensure completed at 2020-01-28T18:08:57+00:00 ==
+INFO: == Reconciling with deprecated label ==
+error: no objects passed to apply
+error: no objects passed to apply
+error: no objects passed to apply
+error: no objects passed to apply
+INFO: == Reconciling with addon-manager label ==
+serviceaccount/storage-provisioner unchanged
+INFO: == Kubernetes addon reconcile completed at 2020-01-28T18:08:58+00:00 ==
+INFO: Leader election disabled.
+INFO: == Kubernetes addon ensure completed at 2020-01-28T18:09:02+00:00 ==
+INFO: == Reconciling with deprecated label ==
+INFO: == Reconciling with addon-manager label ==
+serviceaccount/storage-provisioner unchanged
+INFO: == Kubernetes addon reconcile completed at 2020-01-28T18:09:04+00:00 ==
+INFO: Leader election disabled.
+INFO: == Kubernetes addon ensure completed at 2020-01-28T18:09:07+00:00 ==
+INFO: == Reconciling with deprecated label ==
+INFO: == Reconciling with addon-manager label ==
+serviceaccount/storage-provisioner unchanged
+INFO: == Kubernetes addon reconcile completed at 2020-01-28T18:09:09+00:00 ==
+INFO: Leader election disabled.
+INFO: == Kubernetes addon ensure completed at 2020-01-28T18:09:12+00:00 ==
+INFO: == Reconciling with deprecated label ==
+INFO: == Reconciling with addon-manager label ==
+serviceaccount/storage-provisioner unchanged
+INFO: == Kubernetes addon reconcile completed at 2020-01-28T18:09:13+00:00 ==
+INFO: Leader election disabled.
+INFO: == Kubernetes addon ensure completed at 2020-01-28T18:09:17+00:00 ==
+INFO: == Reconciling with deprecated label ==
+INFO: == Reconciling with addon-manager label ==
+error: no objects passed to apply
+
+==> kube-apiserver ["55289ddc6fc3"] <==
+I0128 18:05:15.103011       1 client.go:361] parsed scheme: "endpoint"
+I0128 18:05:15.103058       1 endpoint.go:66] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379 0  <nil>}]
+I0128 18:05:15.147938       1 client.go:361] parsed scheme: "endpoint"
+I0128 18:05:15.148008       1 endpoint.go:66] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379 0  <nil>}]
+I0128 18:05:15.167204       1 client.go:361] parsed scheme: "endpoint"
+I0128 18:05:15.167260       1 endpoint.go:66] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379 0  <nil>}]
+I0128 18:05:15.186725       1 client.go:361] parsed scheme: "endpoint"
+I0128 18:05:15.186783       1 endpoint.go:66] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379 0  <nil>}]
+W0128 18:05:15.318191       1 genericapiserver.go:404] Skipping API batch/v2alpha1 because it has no resources.
+W0128 18:05:15.331151       1 genericapiserver.go:404] Skipping API node.k8s.io/v1alpha1 because it has no resources.
+W0128 18:05:15.352638       1 genericapiserver.go:404] Skipping API rbac.authorization.k8s.io/v1alpha1 because it has no resources.
+W0128 18:05:15.354437       1 genericapiserver.go:404] Skipping API scheduling.k8s.io/v1alpha1 because it has no resources.
+W0128 18:05:15.360263       1 genericapiserver.go:404] Skipping API storage.k8s.io/v1alpha1 because it has no resources.
+W0128 18:05:15.370332       1 genericapiserver.go:404] Skipping API apps/v1beta2 because it has no resources.
+W0128 18:05:15.370342       1 genericapiserver.go:404] Skipping API apps/v1beta1 because it has no resources.
+I0128 18:05:15.375556       1 plugins.go:158] Loaded 11 mutating admission controller(s) successfully in the following order: NamespaceLifecycle,LimitRanger,ServiceAccount,NodeRestriction,TaintNodesByCondition,Priority,DefaultTolerationSeconds,DefaultStorageClass,StorageObjectInUseProtection,MutatingAdmissionWebhook,RuntimeClass.
+I0128 18:05:15.375566       1 plugins.go:161] Loaded 7 validating admission controller(s) successfully in the following order: LimitRanger,ServiceAccount,Priority,PersistentVolumeClaimResize,ValidatingAdmissionWebhook,RuntimeClass,ResourceQuota.
+I0128 18:05:15.377183       1 client.go:361] parsed scheme: "endpoint"
+I0128 18:05:15.377197       1 endpoint.go:66] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379 0  <nil>}]
+I0128 18:05:15.381917       1 client.go:361] parsed scheme: "endpoint"
+I0128 18:05:15.381932       1 endpoint.go:66] ccResolverWrapper: sending new addresses to cc: [{https://127.0.0.1:2379 0  <nil>}]
+I0128 18:05:16.700439       1 secure_serving.go:123] Serving securely on [::]:8443
+I0128 18:05:16.700461       1 apiservice_controller.go:94] Starting APIServiceRegistrationController
+I0128 18:05:16.700471       1 cache.go:32] Waiting for caches to sync for APIServiceRegistrationController controller
+I0128 18:05:16.700543       1 controller.go:81] Starting OpenAPI AggregationController
+I0128 18:05:16.700625       1 autoregister_controller.go:140] Starting autoregister controller
+I0128 18:05:16.700700       1 cache.go:32] Waiting for caches to sync for autoregister controller
+I0128 18:05:16.700771       1 crdregistration_controller.go:111] Starting crd-autoregister controller
+I0128 18:05:16.700779       1 shared_informer.go:197] Waiting for caches to sync for crd-autoregister
+I0128 18:05:16.700637       1 available_controller.go:383] Starting AvailableConditionController
+I0128 18:05:16.700790       1 cache.go:32] Waiting for caches to sync for AvailableConditionController controller
+I0128 18:05:16.701079       1 crd_finalizer.go:274] Starting CRDFinalizer
+I0128 18:05:16.701146       1 controller.go:85] Starting OpenAPI controller
+I0128 18:05:16.701160       1 customresource_discovery_controller.go:208] Starting DiscoveryController
+I0128 18:05:16.701213       1 naming_controller.go:288] Starting NamingConditionController
+I0128 18:05:16.701232       1 establishing_controller.go:73] Starting EstablishingController
+I0128 18:05:16.701255       1 nonstructuralschema_controller.go:191] Starting NonStructuralSchemaConditionController
+I0128 18:05:16.701309       1 apiapproval_controller.go:185] Starting KubernetesAPIApprovalPolicyConformantConditionController
+E0128 18:05:16.701640       1 controller.go:154] Unable to remove old endpoints from kubernetes service: StorageError: key not found, Code: 1, Key: /registry/masterleases/192.168.1.131, ResourceVersion: 0, AdditionalErrorMsg: 
+I0128 18:05:16.780085       1 controller.go:606] quota admission added evaluator for: leases.coordination.k8s.io
+I0128 18:05:16.800680       1 cache.go:39] Caches are synced for APIServiceRegistrationController controller
+I0128 18:05:16.800956       1 cache.go:39] Caches are synced for autoregister controller
+I0128 18:05:16.800972       1 cache.go:39] Caches are synced for AvailableConditionController controller
+I0128 18:05:16.800972       1 shared_informer.go:204] Caches are synced for crd-autoregister 
+I0128 18:05:17.700647       1 controller.go:107] OpenAPI AggregationController: Processing item 
+I0128 18:05:17.700694       1 controller.go:130] OpenAPI AggregationController: action for item : Nothing (removed from the queue).
+I0128 18:05:17.700721       1 controller.go:130] OpenAPI AggregationController: action for item k8s_internal_local_delegation_chain_0000000000: Nothing (removed from the queue).
+I0128 18:05:17.708418       1 storage_scheduling.go:139] created PriorityClass system-node-critical with value 2000001000
+I0128 18:05:17.714734       1 storage_scheduling.go:139] created PriorityClass system-cluster-critical with value 2000000000
+I0128 18:05:17.714786       1 storage_scheduling.go:148] all system priority classes are created successfully or already exist.
+I0128 18:05:18.016863       1 controller.go:606] quota admission added evaluator for: roles.rbac.authorization.k8s.io
+I0128 18:05:18.034263       1 controller.go:606] quota admission added evaluator for: rolebindings.rbac.authorization.k8s.io
+W0128 18:05:18.169372       1 lease.go:222] Resetting endpoints for master service "kubernetes" to [192.168.1.131]
+I0128 18:05:18.170861       1 controller.go:606] quota admission added evaluator for: endpoints
+I0128 18:05:19.348079       1 controller.go:606] quota admission added evaluator for: serviceaccounts
+I0128 18:05:19.383118       1 controller.go:606] quota admission added evaluator for: deployments.apps
+I0128 18:05:19.684182       1 controller.go:606] quota admission added evaluator for: daemonsets.apps
+I0128 18:05:27.262205       1 controller.go:606] quota admission added evaluator for: replicasets.apps
+I0128 18:05:27.283621       1 controller.go:606] quota admission added evaluator for: events.events.k8s.io
+I0128 18:05:27.778434       1 controller.go:606] quota admission added evaluator for: controllerrevisions.apps
+
+==> kube-controller-manager ["031a4919f7b1"] <==
+I0128 18:05:25.346144       1 replica_set.go:182] Starting replicationcontroller controller
+I0128 18:05:25.346193       1 shared_informer.go:197] Waiting for caches to sync for ReplicationController
+I0128 18:05:25.595943       1 controllermanager.go:534] Started "serviceaccount"
+I0128 18:05:25.595993       1 serviceaccounts_controller.go:116] Starting service account controller
+I0128 18:05:25.596045       1 shared_informer.go:197] Waiting for caches to sync for service account
+I0128 18:05:26.404578       1 garbagecollector.go:130] Starting garbage collector controller
+I0128 18:05:26.404641       1 shared_informer.go:197] Waiting for caches to sync for garbage collector
+I0128 18:05:26.404690       1 graph_builder.go:282] GraphBuilder running
+I0128 18:05:26.404760       1 controllermanager.go:534] Started "garbagecollector"
+I0128 18:05:26.705149       1 controllermanager.go:534] Started "horizontalpodautoscaling"
+I0128 18:05:26.705216       1 horizontal.go:156] Starting HPA controller
+I0128 18:05:26.705237       1 shared_informer.go:197] Waiting for caches to sync for HPA
+I0128 18:05:26.946316       1 controllermanager.go:534] Started "clusterrole-aggregation"
+I0128 18:05:26.946436       1 clusterroleaggregation_controller.go:148] Starting ClusterRoleAggregator
+I0128 18:05:26.946488       1 shared_informer.go:197] Waiting for caches to sync for ClusterRoleAggregator
+I0128 18:05:27.196063       1 controllermanager.go:534] Started "pv-protection"
+I0128 18:05:27.196785       1 shared_informer.go:197] Waiting for caches to sync for resource quota
+I0128 18:05:27.199116       1 pv_protection_controller.go:81] Starting PV protection controller
+I0128 18:05:27.199312       1 shared_informer.go:197] Waiting for caches to sync for PV protection
+I0128 18:05:27.241385       1 shared_informer.go:204] Caches are synced for namespace 
+I0128 18:05:27.246532       1 shared_informer.go:204] Caches are synced for ReplicaSet 
+I0128 18:05:27.246731       1 shared_informer.go:204] Caches are synced for ClusterRoleAggregator 
+I0128 18:05:27.252878       1 shared_informer.go:204] Caches are synced for deployment 
+I0128 18:05:27.258974       1 shared_informer.go:204] Caches are synced for PVC protection 
+I0128 18:05:27.267959       1 event.go:255] Event(v1.ObjectReference{Kind:"Deployment", Namespace:"kube-system", Name:"coredns", UID:"65407214-bb15-4ded-8aef-1b392c89a02f", APIVersion:"apps/v1", ResourceVersion:"186", FieldPath:""}): type: 'Normal' reason: 'ScalingReplicaSet' Scaled up replica set coredns-5644d7b6d9 to 2
+I0128 18:05:27.274071       1 shared_informer.go:204] Caches are synced for expand 
+I0128 18:05:27.280667       1 event.go:255] Event(v1.ObjectReference{Kind:"ReplicaSet", Namespace:"kube-system", Name:"coredns-5644d7b6d9", UID:"f67dc713-5e8c-4b75-acef-c4c1a354b149", APIVersion:"apps/v1", ResourceVersion:"323", FieldPath:""}): type: 'Normal' reason: 'SuccessfulCreate' Created pod: coredns-5644d7b6d9-twhrt
+I0128 18:05:27.283682       1 event.go:255] Event(v1.ObjectReference{Kind:"ReplicaSet", Namespace:"kube-system", Name:"coredns-5644d7b6d9", UID:"f67dc713-5e8c-4b75-acef-c4c1a354b149", APIVersion:"apps/v1", ResourceVersion:"323", FieldPath:""}): type: 'Normal' reason: 'SuccessfulCreate' Created pod: coredns-5644d7b6d9-qrrbb
+I0128 18:05:27.296195       1 shared_informer.go:204] Caches are synced for bootstrap_signer 
+I0128 18:05:27.296359       1 shared_informer.go:204] Caches are synced for service account 
+I0128 18:05:27.296450       1 shared_informer.go:204] Caches are synced for job 
+I0128 18:05:27.297049       1 shared_informer.go:204] Caches are synced for GC 
+I0128 18:05:27.297769       1 shared_informer.go:204] Caches are synced for certificate 
+I0128 18:05:27.299033       1 shared_informer.go:204] Caches are synced for certificate 
+I0128 18:05:27.299450       1 shared_informer.go:204] Caches are synced for PV protection 
+I0128 18:05:27.305359       1 shared_informer.go:204] Caches are synced for HPA 
+I0128 18:05:27.319601       1 log.go:172] [INFO] signed certificate with serial number 296982233153604786050589545277473367417343221300
+W0128 18:05:27.348399       1 actual_state_of_world.go:506] Failed to update statusUpdateNeeded field in actual state of world: Failed to set statusUpdateNeeded to needed true, because nodeName="minikube" does not exist
+I0128 18:05:27.395834       1 shared_informer.go:204] Caches are synced for TTL 
+I0128 18:05:27.397055       1 shared_informer.go:204] Caches are synced for persistent volume 
+I0128 18:05:27.447616       1 shared_informer.go:204] Caches are synced for attach detach 
+I0128 18:05:27.546495       1 shared_informer.go:204] Caches are synced for ReplicationController 
+I0128 18:05:27.593692       1 shared_informer.go:204] Caches are synced for disruption 
+I0128 18:05:27.593733       1 disruption.go:341] Sending events to api server.
+I0128 18:05:27.598207       1 shared_informer.go:204] Caches are synced for endpoint 
+I0128 18:05:27.646979       1 shared_informer.go:204] Caches are synced for stateful set 
+I0128 18:05:27.771813       1 shared_informer.go:204] Caches are synced for daemon sets 
+I0128 18:05:27.787414       1 shared_informer.go:204] Caches are synced for resource quota 
+I0128 18:05:27.791964       1 event.go:255] Event(v1.ObjectReference{Kind:"DaemonSet", Namespace:"kube-system", Name:"kube-proxy", UID:"f7536e50-b906-4bbb-afbe-543c7ead8e2f", APIVersion:"apps/v1", ResourceVersion:"192", FieldPath:""}): type: 'Normal' reason: 'SuccessfulCreate' Created pod: kube-proxy-sn2vl
+I0128 18:05:27.797132       1 shared_informer.go:204] Caches are synced for resource quota 
+I0128 18:05:27.804929       1 shared_informer.go:204] Caches are synced for garbage collector 
+I0128 18:05:27.804983       1 garbagecollector.go:139] Garbage collector: all resource monitors have synced. Proceeding to collect garbage
+I0128 18:05:27.843957       1 shared_informer.go:204] Caches are synced for taint 
+I0128 18:05:27.844034       1 node_lifecycle_controller.go:1208] Initializing eviction metric for zone: 
+I0128 18:05:27.844053       1 taint_manager.go:186] Starting NoExecuteTaintManager
+W0128 18:05:27.844099       1 node_lifecycle_controller.go:903] Missing timestamp for Node minikube. Assuming now as a timestamp.
+I0128 18:05:27.844134       1 node_lifecycle_controller.go:1108] Controller detected that zone  is now in state Normal.
+I0128 18:05:27.844164       1 event.go:255] Event(v1.ObjectReference{Kind:"Node", Namespace:"", Name:"minikube", UID:"1514950e-8e6e-4d1a-84a2-eacdb096f0d7", APIVersion:"", ResourceVersion:"", FieldPath:""}): type: 'Normal' reason: 'RegisteredNode' Node minikube event: Registered Node minikube in Controller
+I0128 18:05:27.895510       1 shared_informer.go:197] Waiting for caches to sync for garbage collector
+I0128 18:05:27.895542       1 shared_informer.go:204] Caches are synced for garbage collector 
+
+==> kube-proxy ["04e73460af1f"] <==
+W0128 18:05:28.688194       1 server_others.go:329] Flag proxy-mode="" unknown, assuming iptables proxy
+I0128 18:05:28.707865       1 node.go:135] Successfully retrieved node IP: 192.168.1.131
+I0128 18:05:28.707914       1 server_others.go:149] Using iptables Proxier.
+W0128 18:05:28.708827       1 proxier.go:287] clusterCIDR not specified, unable to distinguish between internal and external traffic
+I0128 18:05:28.709276       1 server.go:529] Version: v1.16.2
+I0128 18:05:28.711375       1 conntrack.go:100] Set sysctl 'net/netfilter/nf_conntrack_max' to 393216
+I0128 18:05:28.711426       1 conntrack.go:52] Setting nf_conntrack_max to 393216
+I0128 18:05:28.711881       1 conntrack.go:83] Setting conntrack hashsize to 98304
+I0128 18:05:28.745922       1 conntrack.go:100] Set sysctl 'net/netfilter/nf_conntrack_tcp_timeout_established' to 86400
+I0128 18:05:28.746171       1 conntrack.go:100] Set sysctl 'net/netfilter/nf_conntrack_tcp_timeout_close_wait' to 3600
+I0128 18:05:28.746736       1 config.go:131] Starting endpoints config controller
+I0128 18:05:28.746808       1 shared_informer.go:197] Waiting for caches to sync for endpoints config
+I0128 18:05:28.746996       1 config.go:313] Starting service config controller
+I0128 18:05:28.747069       1 shared_informer.go:197] Waiting for caches to sync for service config
+I0128 18:05:28.847148       1 shared_informer.go:204] Caches are synced for endpoints config 
+I0128 18:05:28.847470       1 shared_informer.go:204] Caches are synced for service config 
+
+==> kube-scheduler ["8c29c4630374"] <==
+I0128 18:05:13.999266       1 serving.go:319] Generated self-signed cert in-memory
+W0128 18:05:16.722577       1 authentication.go:262] Unable to get configmap/extension-apiserver-authentication in kube-system.  Usually fixed by 'kubectl create rolebinding -n kube-system ROLEBINDING_NAME --role=extension-apiserver-authentication-reader --serviceaccount=YOUR_NS:YOUR_SA'
+W0128 18:05:16.722696       1 authentication.go:199] Error looking up in-cluster authentication configuration: configmaps "extension-apiserver-authentication" is forbidden: User "system:kube-scheduler" cannot get resource "configmaps" in API group "" in the namespace "kube-system"
+W0128 18:05:16.722747       1 authentication.go:200] Continuing without authentication configuration. This may treat all requests as anonymous.
+W0128 18:05:16.722765       1 authentication.go:201] To require authentication configuration lookup to succeed, set --authentication-tolerate-lookup-failure=false
+I0128 18:05:16.728069       1 server.go:143] Version: v1.16.2
+I0128 18:05:16.728156       1 defaults.go:91] TaintNodesByCondition is enabled, PodToleratesNodeTaints predicate is mandatory
+W0128 18:05:16.729372       1 authorization.go:47] Authorization is disabled
+W0128 18:05:16.729388       1 authentication.go:79] Authentication is disabled
+I0128 18:05:16.729397       1 deprecated_insecure_serving.go:51] Serving healthz insecurely on [::]:10251
+I0128 18:05:16.729873       1 secure_serving.go:123] Serving securely on 127.0.0.1:10259
+E0128 18:05:16.747919       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.StatefulSet: statefulsets.apps is forbidden: User "system:kube-scheduler" cannot list resource "statefulsets" in API group "apps" at the cluster scope
+E0128 18:05:16.747925       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.PersistentVolumeClaim: persistentvolumeclaims is forbidden: User "system:kube-scheduler" cannot list resource "persistentvolumeclaims" in API group "" at the cluster scope
+E0128 18:05:16.747925       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.ReplicationController: replicationcontrollers is forbidden: User "system:kube-scheduler" cannot list resource "replicationcontrollers" in API group "" at the cluster scope
+E0128 18:05:16.747935       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.StorageClass: storageclasses.storage.k8s.io is forbidden: User "system:kube-scheduler" cannot list resource "storageclasses" in API group "storage.k8s.io" at the cluster scope
+E0128 18:05:16.747936       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.PersistentVolume: persistentvolumes is forbidden: User "system:kube-scheduler" cannot list resource "persistentvolumes" in API group "" at the cluster scope
+E0128 18:05:16.747938       1 reflector.go:123] k8s.io/kubernetes/cmd/kube-scheduler/app/server.go:236: Failed to list *v1.Pod: pods is forbidden: User "system:kube-scheduler" cannot list resource "pods" in API group "" at the cluster scope
+E0128 18:05:16.747933       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.ReplicaSet: replicasets.apps is forbidden: User "system:kube-scheduler" cannot list resource "replicasets" in API group "apps" at the cluster scope
+E0128 18:05:16.747949       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.Service: services is forbidden: User "system:kube-scheduler" cannot list resource "services" in API group "" at the cluster scope
+E0128 18:05:16.747960       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.Node: nodes is forbidden: User "system:kube-scheduler" cannot list resource "nodes" in API group "" at the cluster scope
+E0128 18:05:16.747967       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1beta1.CSINode: csinodes.storage.k8s.io is forbidden: User "system:kube-scheduler" cannot list resource "csinodes" in API group "storage.k8s.io" at the cluster scope
+E0128 18:05:16.748000       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1beta1.PodDisruptionBudget: poddisruptionbudgets.policy is forbidden: User "system:kube-scheduler" cannot list resource "poddisruptionbudgets" in API group "policy" at the cluster scope
+E0128 18:05:17.750328       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.StatefulSet: statefulsets.apps is forbidden: User "system:kube-scheduler" cannot list resource "statefulsets" in API group "apps" at the cluster scope
+E0128 18:05:17.752203       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.PersistentVolumeClaim: persistentvolumeclaims is forbidden: User "system:kube-scheduler" cannot list resource "persistentvolumeclaims" in API group "" at the cluster scope
+E0128 18:05:17.752399       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.StorageClass: storageclasses.storage.k8s.io is forbidden: User "system:kube-scheduler" cannot list resource "storageclasses" in API group "storage.k8s.io" at the cluster scope
+E0128 18:05:17.755004       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.ReplicationController: replicationcontrollers is forbidden: User "system:kube-scheduler" cannot list resource "replicationcontrollers" in API group "" at the cluster scope
+E0128 18:05:17.756043       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.PersistentVolume: persistentvolumes is forbidden: User "system:kube-scheduler" cannot list resource "persistentvolumes" in API group "" at the cluster scope
+E0128 18:05:17.756149       1 reflector.go:123] k8s.io/kubernetes/cmd/kube-scheduler/app/server.go:236: Failed to list *v1.Pod: pods is forbidden: User "system:kube-scheduler" cannot list resource "pods" in API group "" at the cluster scope
+E0128 18:05:17.757959       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.ReplicaSet: replicasets.apps is forbidden: User "system:kube-scheduler" cannot list resource "replicasets" in API group "apps" at the cluster scope
+E0128 18:05:17.758087       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.Service: services is forbidden: User "system:kube-scheduler" cannot list resource "services" in API group "" at the cluster scope
+E0128 18:05:17.759139       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1.Node: nodes is forbidden: User "system:kube-scheduler" cannot list resource "nodes" in API group "" at the cluster scope
+E0128 18:05:17.760306       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1beta1.CSINode: csinodes.storage.k8s.io is forbidden: User "system:kube-scheduler" cannot list resource "csinodes" in API group "storage.k8s.io" at the cluster scope
+E0128 18:05:17.761273       1 reflector.go:123] k8s.io/client-go/informers/factory.go:134: Failed to list *v1beta1.PodDisruptionBudget: poddisruptionbudgets.policy is forbidden: User "system:kube-scheduler" cannot list resource "poddisruptionbudgets" in API group "policy" at the cluster scope
+I0128 18:05:18.830283       1 leaderelection.go:241] attempting to acquire leader lease  kube-system/kube-scheduler...
+I0128 18:05:18.840547       1 leaderelection.go:251] successfully acquired lease kube-system/kube-scheduler
+E0128 18:05:27.296003       1 factory.go:585] pod is already present in the activeQ
+
+==> kubelet <==
+-- Logs begin at Wed 2020-01-15 19:10:58 CET, end at Tue 2020-01-28 19:09:19 CET. --
+ene 28 19:05:14 pc-carlos kubelet[26462]: E0128 19:05:14.201019   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:14 pc-carlos kubelet[26462]: E0128 19:05:14.301291   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:14 pc-carlos kubelet[26462]: E0128 19:05:14.401457   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:14 pc-carlos kubelet[26462]: I0128 19:05:14.424300   26462 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+ene 28 19:05:14 pc-carlos kubelet[26462]: I0128 19:05:14.424330   26462 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+ene 28 19:05:14 pc-carlos kubelet[26462]: I0128 19:05:14.424301   26462 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+ene 28 19:05:14 pc-carlos kubelet[26462]: I0128 19:05:14.424300   26462 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+ene 28 19:05:14 pc-carlos kubelet[26462]: I0128 19:05:14.424304   26462 kubelet_node_status.go:286] Setting node annotation to enable volume controller attach/detach
+ene 28 19:05:14 pc-carlos kubelet[26462]: E0128 19:05:14.501545   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:14 pc-carlos kubelet[26462]: E0128 19:05:14.601674   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:14 pc-carlos kubelet[26462]: E0128 19:05:14.701792   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:14 pc-carlos kubelet[26462]: E0128 19:05:14.801925   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:14 pc-carlos kubelet[26462]: E0128 19:05:14.902129   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:15 pc-carlos kubelet[26462]: E0128 19:05:15.002372   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:15 pc-carlos kubelet[26462]: E0128 19:05:15.102596   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:15 pc-carlos kubelet[26462]: E0128 19:05:15.202847   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:15 pc-carlos kubelet[26462]: E0128 19:05:15.303006   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:15 pc-carlos kubelet[26462]: E0128 19:05:15.403224   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:15 pc-carlos kubelet[26462]: E0128 19:05:15.503414   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:15 pc-carlos kubelet[26462]: E0128 19:05:15.603620   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:15 pc-carlos kubelet[26462]: E0128 19:05:15.703774   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:15 pc-carlos kubelet[26462]: E0128 19:05:15.803929   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:15 pc-carlos kubelet[26462]: E0128 19:05:15.904127   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:16 pc-carlos kubelet[26462]: E0128 19:05:16.004327   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:16 pc-carlos kubelet[26462]: E0128 19:05:16.104555   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:16 pc-carlos kubelet[26462]: E0128 19:05:16.204718   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:16 pc-carlos kubelet[26462]: E0128 19:05:16.304848   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:16 pc-carlos kubelet[26462]: E0128 19:05:16.405024   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:16 pc-carlos kubelet[26462]: E0128 19:05:16.505212   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:16 pc-carlos kubelet[26462]: E0128 19:05:16.605385   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:16 pc-carlos kubelet[26462]: E0128 19:05:16.705513   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:16 pc-carlos kubelet[26462]: E0128 19:05:16.728765   26462 controller.go:220] failed to get node "minikube" when trying to set owner ref to the node lease: nodes "minikube" not found
+ene 28 19:05:16 pc-carlos kubelet[26462]: E0128 19:05:16.805727   26462 kubelet.go:2267] node "minikube" not found
+ene 28 19:05:16 pc-carlos kubelet[26462]: I0128 19:05:16.816233   26462 reconciler.go:154] Reconciler: start to sync state
+ene 28 19:05:16 pc-carlos kubelet[26462]: I0128 19:05:16.827431   26462 kubelet_node_status.go:75] Successfully registered node minikube
+ene 28 19:05:18 pc-carlos kubelet[26462]: W0128 19:05:18.420941   26462 kubelet_getters.go:292] Path "/var/lib/kubelet/pods/33c834741c593477451a384013104b94/volumes" does not exist
+ene 28 19:05:18 pc-carlos kubelet[26462]: W0128 19:05:18.421045   26462 kubelet_getters.go:292] Path "/var/lib/kubelet/pods/9641956e40036b5dcad52649a593408a/volumes" does not exist
+ene 28 19:05:27 pc-carlos kubelet[26462]: I0128 19:05:27.846908   26462 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "kube-proxy" (UniqueName: "kubernetes.io/configmap/3ea0c3cb-77a2-49fe-9bfd-ef136d71dcfb-kube-proxy") pod "kube-proxy-sn2vl" (UID: "3ea0c3cb-77a2-49fe-9bfd-ef136d71dcfb")
+ene 28 19:05:27 pc-carlos kubelet[26462]: I0128 19:05:27.846967   26462 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "lib-modules" (UniqueName: "kubernetes.io/host-path/3ea0c3cb-77a2-49fe-9bfd-ef136d71dcfb-lib-modules") pod "kube-proxy-sn2vl" (UID: "3ea0c3cb-77a2-49fe-9bfd-ef136d71dcfb")
+ene 28 19:05:27 pc-carlos kubelet[26462]: I0128 19:05:27.847053   26462 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "xtables-lock" (UniqueName: "kubernetes.io/host-path/3ea0c3cb-77a2-49fe-9bfd-ef136d71dcfb-xtables-lock") pod "kube-proxy-sn2vl" (UID: "3ea0c3cb-77a2-49fe-9bfd-ef136d71dcfb")
+ene 28 19:05:27 pc-carlos kubelet[26462]: I0128 19:05:27.847128   26462 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "kube-proxy-token-vm9hg" (UniqueName: "kubernetes.io/secret/3ea0c3cb-77a2-49fe-9bfd-ef136d71dcfb-kube-proxy-token-vm9hg") pod "kube-proxy-sn2vl" (UID: "3ea0c3cb-77a2-49fe-9bfd-ef136d71dcfb")
+ene 28 19:05:28 pc-carlos kubelet[26462]: I0128 19:05:28.850100   26462 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "config-volume" (UniqueName: "kubernetes.io/configmap/34838291-2df8-4760-9f47-384a135609c6-config-volume") pod "coredns-5644d7b6d9-twhrt" (UID: "34838291-2df8-4760-9f47-384a135609c6")
+ene 28 19:05:28 pc-carlos kubelet[26462]: I0128 19:05:28.850328   26462 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "config-volume" (UniqueName: "kubernetes.io/configmap/39f16c33-372e-4fee-98b0-a2a28cee8ae6-config-volume") pod "coredns-5644d7b6d9-qrrbb" (UID: "39f16c33-372e-4fee-98b0-a2a28cee8ae6")
+ene 28 19:05:28 pc-carlos kubelet[26462]: I0128 19:05:28.850439   26462 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "coredns-token-zhv7l" (UniqueName: "kubernetes.io/secret/39f16c33-372e-4fee-98b0-a2a28cee8ae6-coredns-token-zhv7l") pod "coredns-5644d7b6d9-qrrbb" (UID: "39f16c33-372e-4fee-98b0-a2a28cee8ae6")
+ene 28 19:05:28 pc-carlos kubelet[26462]: I0128 19:05:28.850520   26462 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "coredns-token-zhv7l" (UniqueName: "kubernetes.io/secret/34838291-2df8-4760-9f47-384a135609c6-coredns-token-zhv7l") pod "coredns-5644d7b6d9-twhrt" (UID: "34838291-2df8-4760-9f47-384a135609c6")
+ene 28 19:05:29 pc-carlos kubelet[26462]: I0128 19:05:29.252162   26462 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "tmp" (UniqueName: "kubernetes.io/host-path/db772a3d-4fb3-4106-b6b3-04be32a25fcd-tmp") pod "storage-provisioner" (UID: "db772a3d-4fb3-4106-b6b3-04be32a25fcd")
+ene 28 19:05:29 pc-carlos kubelet[26462]: I0128 19:05:29.252421   26462 reconciler.go:207] operationExecutor.VerifyControllerAttachedVolume started for volume "storage-provisioner-token-8rlh4" (UniqueName: "kubernetes.io/secret/db772a3d-4fb3-4106-b6b3-04be32a25fcd-storage-provisioner-token-8rlh4") pod "storage-provisioner" (UID: "db772a3d-4fb3-4106-b6b3-04be32a25fcd")
+ene 28 19:05:29 pc-carlos kubelet[26462]: I0128 19:05:29.288188   26462 transport.go:132] certificate rotation detected, shutting down client connections to start using new credentials
+ene 28 19:05:29 pc-carlos kubelet[26462]: W0128 19:05:29.289337   26462 reflector.go:299] object-"kube-system"/"coredns-token-zhv7l": watch of *v1.Secret ended with: very short watch: object-"kube-system"/"coredns-token-zhv7l": Unexpected watch close - watch lasted less than a second and no items received
+ene 28 19:05:29 pc-carlos kubelet[26462]: W0128 19:05:29.289458   26462 reflector.go:299] object-"kube-system"/"coredns": watch of *v1.ConfigMap ended with: very short watch: object-"kube-system"/"coredns": Unexpected watch close - watch lasted less than a second and no items received
+ene 28 19:05:29 pc-carlos kubelet[26462]: W0128 19:05:29.289837   26462 reflector.go:299] object-"kube-system"/"storage-provisioner-token-8rlh4": watch of *v1.Secret ended with: very short watch: object-"kube-system"/"storage-provisioner-token-8rlh4": Unexpected watch close - watch lasted less than a second and no items received
+ene 28 19:05:29 pc-carlos kubelet[26462]: W0128 19:05:29.733889   26462 docker_sandbox.go:394] failed to read pod IP from plugin/docker: Couldn't find network status for kube-system/coredns-5644d7b6d9-twhrt through plugin: invalid network status for
+ene 28 19:05:29 pc-carlos kubelet[26462]: W0128 19:05:29.734245   26462 docker_sandbox.go:394] failed to read pod IP from plugin/docker: Couldn't find network status for kube-system/coredns-5644d7b6d9-qrrbb through plugin: invalid network status for
+ene 28 19:05:29 pc-carlos kubelet[26462]: W0128 19:05:29.750798   26462 pod_container_deletor.go:75] Container "d784e4e731a2974fb0b7fcdafcc3dec28f75b890e4200dd61ab2779472ca83a3" not found in pod's containers
+ene 28 19:05:29 pc-carlos kubelet[26462]: W0128 19:05:29.758833   26462 docker_sandbox.go:394] failed to read pod IP from plugin/docker: Couldn't find network status for kube-system/coredns-5644d7b6d9-qrrbb through plugin: invalid network status for
+ene 28 19:05:29 pc-carlos kubelet[26462]: W0128 19:05:29.760801   26462 pod_container_deletor.go:75] Container "8c0f0c5fa1a88381447c178958ff550698b9376d51e295a4bcba73362dbd2309" not found in pod's containers
+ene 28 19:05:29 pc-carlos kubelet[26462]: W0128 19:05:29.766755   26462 docker_sandbox.go:394] failed to read pod IP from plugin/docker: Couldn't find network status for kube-system/coredns-5644d7b6d9-twhrt through plugin: invalid network status for
+ene 28 19:05:29 pc-carlos kubelet[26462]: W0128 19:05:29.770557   26462 pod_container_deletor.go:75] Container "087f75d72173054208f0b599457b3f0df9eb378a888d242bf887b6db14df9a61" not found in pod's containers
+ene 28 19:05:30 pc-carlos kubelet[26462]: W0128 19:05:30.785999   26462 docker_sandbox.go:394] failed to read pod IP from plugin/docker: Couldn't find network status for kube-system/coredns-5644d7b6d9-qrrbb through plugin: invalid network status for
+ene 28 19:05:30 pc-carlos kubelet[26462]: W0128 19:05:30.797300   26462 docker_sandbox.go:394] failed to read pod IP from plugin/docker: Couldn't find network status for kube-system/coredns-5644d7b6d9-twhrt through plugin: invalid network status for
+
+==> storage-provisioner ["009ce2bc1642"] <==

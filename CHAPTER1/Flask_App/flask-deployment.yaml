@@ -4,7 +4,7 @@ kind: Service
 
 metadata: 
 
-  name: flaskapp-deployment
+  name: flaskapp
 
 spec:
 
@@ -12,11 +12,12 @@ spec:
     app: flaskapp
 
   ports:
-    - protocol: TCP
-      port: 80 
-      targetPort: 9300
+    - nodePort: 31525
+      protocol: TCP
+      port: 8000
+      targetPort: 8000
 
-  type: LoadBalancer
+  type: NodePort
 
 ---
 
@@ -26,7 +27,7 @@ kind: Deployment
 
 metadata: 
 
-  name: flaskapp-deployment
+  name: flaskapp
 
 spec: 
 
@@ -52,11 +53,11 @@ spec:
 
       - name: flaskapp
 
-        image: cagil04/flask_app:latest
+        image: cagil04/kubepod_flaskapp:latest
         imagePullPolicy: Always
         ports:
 
-        - containerPort: 80
+        - containerPort: 8000
 
       imagePullSecrets:
 

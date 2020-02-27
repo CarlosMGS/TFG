@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+
+  kubelab_database:
+
+    container_name: kubelab-sqlserver
+    build: .
+    hostname: kubelab-sqlserver2019
+
+    environment:
+      MSSQL_SA_PASSWORD: "KubeLabPass"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Developer"
+
+    ports:
+      - "14333:1433"
+
+    mem_limit: 10Gb
+

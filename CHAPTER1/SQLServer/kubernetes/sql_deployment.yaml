@@ -94,4 +94,4 @@ spec:
 
         persistentVolumeClaim:
 
-          claimName: mssql-data-claim
+          claimName: kubelab-mssql-pvc

@@ -1,15 +1,17 @@
-version: '3.7'
+version: '2.2'
 
 services:
 
-  kubelab_database:
+  db:
 
     container_name: kubelab-sqlserver
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
     hostname: kubelab-sqlserver2019
 
     environment:
-      MSSQL_SA_PASSWORD: "KubeLabPass"
+      MSSQL_SA_PASSWORD: "PaSSw0rd"
       ACCEPT_EULA: "Y"
       MSSQL_PID: "Developer"
 

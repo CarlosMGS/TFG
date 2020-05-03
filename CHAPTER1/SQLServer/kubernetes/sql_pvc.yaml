@@ -4,7 +4,7 @@ apiVersion: v1
 
 metadata:
 
-  name: mssql-data-claim
+  name: kubelab-mssql-pvc
 
 spec:
 

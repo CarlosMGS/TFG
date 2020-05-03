@@ -7,17 +7,15 @@ metadata:
   name: flaskapp
 
 spec:
+  
+  type: LoadBalancer
 
+  ports:
+   -port: 80
   selector:
     app: flaskapp
 
-  ports:
-    - nodePort: 31525
-      protocol: TCP
-      port: 8000
-      targetPort: 8000
-
-  type: NodePort
+  
 
 ---
 
